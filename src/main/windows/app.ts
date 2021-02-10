@@ -203,7 +203,7 @@ export class AppWindow {
   }
 
   public get webContents() {
-    return this.win.webContents;
+    // return this.win.webContents;
   }
 
   public fixDragging() {

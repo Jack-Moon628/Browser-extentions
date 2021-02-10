@@ -19,7 +19,6 @@ app.commandLine.appendSwitch('--enable-parallel-downloading');
 if (process.env.NODE_ENV === 'development') {
   app.commandLine.appendSwitch('remote-debugging-port', '9222');
 }
-
 ipcMain.setMaxListeners(0);
 
 // app.setAsDefaultProtocolClient('http');

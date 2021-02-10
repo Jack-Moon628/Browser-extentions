@@ -27,6 +27,7 @@ export class Application {
   public dialogs = new DialogsService();
 
   public start() {
+    
     const gotTheLock = app.requestSingleInstanceLock();
 
     if (!gotTheLock) {
